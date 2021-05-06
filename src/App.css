@@ -1,7 +1,8 @@
 .app{
-    height: 100vh;
+    height: 100%;
     background-color: #f1f2f5;
 }
 .app__body{
     display: flex;
+    justify-content: space-between;
 }
