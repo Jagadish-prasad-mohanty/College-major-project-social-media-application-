@@ -3,6 +3,7 @@ import './SidebarRow.css';
 import {Avatar} from '@material-ui/core';
 
 function SidebarRow(props) {
+    
     return (
         <div className="SidebarRow">
             {props.src && <Avatar src={props.src}/>}
